@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Activity, Heart, Thermometer, Brain, Leaf } from 'lucide-react';
 
@@ -7,7 +8,7 @@ const Services = () => {
       title: "KSHARSUTRA Surgery",
       description: "Advanced surgery with alkaline thread for piles, fistula, and pilo-nidal sinus",
       icon: Activity,
-      image: "https://imgur.com/Obkenxz.jpg" // Updated Image with .jpg
+      image: "https://i.imgur.com/Obkenxz.jpg"
     },
     {
       title: "Ksharpatan",
@@ -19,13 +20,13 @@ const Services = () => {
       title: "Leech Therapy",
       description: "Traditional treatment for piles, inflamed wounds, and facial problems",
       icon: Thermometer,
-      image: "https://imgur.com/eIGy7gR.jpg" // Updated Image with .jpg
+      image: "https://i.imgur.com/eIGy7gR.jpg"
     },
     {
       title: "Pain Management",
       description: "Specialized therapy for various types of pain and discomfort",
       icon: Brain,
-      image: "https://imgur.com/YGQvIJH.jpg" // Updated Image with .jpg
+      image: "https://i.imgur.com/YGQvIJH.jpg"
     }
   ];
 
@@ -34,13 +35,13 @@ const Services = () => {
       title: "Cupping Therapy",
       description: "Joints pain, cervical pain",
       icon: Leaf,
-      image: "https://i.imgur.com/5jPKdOM.jpg"  // Cupping Therapy Image from Imgur
+      image: "https://i.imgur.com/5jPKdOM.jpg"
     },
     {
       title: "Pain Management",
       description: "Comprehensive pain relief therapy",
       icon: Leaf,
-      image: "https://i.imgur.com/QoL3J8f.jpg"  // Pain Management Image from Imgur
+      image: "https://i.imgur.com/QoL3J8f.jpg"
     }
   ];
 
@@ -103,4 +104,3 @@ const Services = () => {
 };
 
 export default Services;
-
